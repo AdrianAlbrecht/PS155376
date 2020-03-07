@@ -16,6 +16,6 @@ int main()
         printf("%i",liczba);
     }
     else{
-        printf("%i",liczba-2*liczba);
+        printf("%i",-liczba);
     }
 }

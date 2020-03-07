@@ -11,9 +11,9 @@ int main()
     }
     else{
         float ob=a+b+c;
-        printf("%f\n",ob);
+        //printf("%f\n",ob);
         ob/=2;
-        printf("%f\n",ob);
+        //printf("%f\n",ob);
         p=sqrt(ob*(ob-a)*(ob-b)*(ob-c));
     }
     printf("Pole trojkata: %f", p);

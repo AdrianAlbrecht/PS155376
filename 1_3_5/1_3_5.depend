@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1583310231 source:d:\albrecht\1_3_5\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

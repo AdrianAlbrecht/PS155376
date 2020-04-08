@@ -1,30 +1,30 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void stworz(int tab[],int n);
-void sortuj(int tab[],int n);
+void stworz(double tab[],int n);
+void sortuj(double tab[],int n);
 
 int main()
 {
-    int tab[5];
+    double tab[5];
     stworz(tab,5);
     for(int i=0;i<5;i++){
-        printf("%i ",*(tab+i));
+        printf("%lf ",*(tab+i));
     }
     printf("\n");
     sortuj(tab,5);
     for(int i=0;i<5;i++){
-        printf("%i ",*(tab+i));
+        printf("%lf ",*(tab+i));
     }
     return 0;
 }
 
-void stworz(int tab[],int n){
+void stworz(double tab[],int n){
     for(int i=0;i<n;i++){
-        scanf("%i",(tab+i));
+        scanf("%lf",(tab+i));
     }
 }
-void sortuj(int tab[],int n){
+void sortuj(double tab[],int n){
     int temp=0;
     for(int i=0;i<n;i++){
         for(int j=0;j<n-1;j++){

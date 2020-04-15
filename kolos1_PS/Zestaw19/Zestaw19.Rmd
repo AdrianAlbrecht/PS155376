@@ -1,0 +1,57 @@
+---
+title: "Zestaw 19"
+lang: pl
+output:
+  word_document: default
+  pdf_document: default
+---
+
+
+1. W folderze Debug19 znajduje się projekt z kodem w języku C. W pliku main.c w niektórych linijkach są komentarze. Twoim zadaniem jest wpisanie wartości odpowiednich zmiennych po wykonaniu konkretnej linii kodu.
+
+*Punktacja: 1 pkt za każdą poprawną linijkę, łącznie 7 pkt.*
+
+2. W folderze Popraw19 znajduje się kod w języku C, który nie spełnia zasad kompilacji. Popraw kod modyfikując dokładnie 1 linijkę tak, aby się kompilował. Zabronioną operacją jest komentowanie kodu. Do zmodyfikowanych linii zaliczają się zarówno linie istotne ze względu na kompilację jak i te nieistotne (np. dodanie spacji przed operatorem może być operacją nieistotną ze względu na kompilację, ale będzie liczone jako zmodyfikowana linijka).
+
+*Punktacja: 7 pkt.*
+
+3. Napisz funkcję, która jako argument otrzymuje dodatnią liczbę całkowitą $n$ i zwraca liczbę $\lceil \sqrt[3]{n} \rceil$ (najmniejsza liczba całkowita większa lub równa $\sqrt[3]{n}$). Nie korzystaj z żadnych gotowych funkcji bibliotecznych ani wbudowanych. Stwórz dwa przypadki testowe dla funkcji.
+
+Przypadki testowe:
+
+| $n$ | wyjście|
+|---|---|
+| 3 | 2 |
+| 5 | 2 |
+| 10 | 3 |
+| 27 | 3 |
+
+*Punktacja: 8 pkt.*
+
+4. Napisz funkcję, która otrzymuje trzy argumenty:  dwa wskaźniki na funkcje o jednym argumencie typu `int` zwracające wartość typu `int` oraz wartość $n$ typu `int`. Funkcja zwraca 1 jeśli jeżeli otrzymane w argumentach funkcje są równe dla wartości dodatnich podzielnych przez 3 i mniejszych niż $n$ są równe i zwraca 0 w przeciwnym wypadku. 
+
+*Punktacja: 8 pkt.*
+
+5. Napisz funkcję rekurencyjną, która dla otrzymanej w argumencie nieujemnej liczby całkowitej $n$ zwraca
+wartość elementu o indeksie $n$ ciągu zdefiniowanego w następujący sposób
+
+$$a_0=a_1=1$$
+
+$$a_{2n}=a_{2n-2}+1$$
+$$a_{2n+1}=2\cdot a_{2n}-1$$
+Stwórz dwa przypadki testowe dla funkcji.
+
+Przypadki testowe:
+
+| $n$ | $a_n$ |
+|---|---|
+| 2 | 2 |
+| 3 | 3 |
+| 4 | 3 |
+| 5 | 5 |
+
+*Punktacja: 10 pkt.*
+
+6. Napisz funkcję, która otrzymuje cztery argumenty: dodatnią liczbę całkowitą $n$, $n$-elementowe tablice `tab1` i `tab2` oraz $2\cdot n$-elementową tablicę `tab3` o elementach typu `float`. Funkcja powinna ustawić elementy tak, aby na początku tablicy tab3 powinny się znaleźć elementy tablicy `tab2`, a po nich elementy będące różnicą poszczególnych elementów tablicy `tab1` i `tab2`. Stwórz dwa przypadki testowe.
+
+*Punktacja: 10 pkt.*

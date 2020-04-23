@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1587557121 source:c:\users\adrian\desktop\c_v_python\c\5_2_20\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1587672315 source:c:\users\adrian\desktop\c_v_python\c\ps155376\5_2_20\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

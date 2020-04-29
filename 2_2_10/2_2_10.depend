@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1583915943 source:d:\albrecht\2_2_10\main.c
-	<stdio.h>
-	<stdlib.h>
-	<stdbool.h>
-

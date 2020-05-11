@@ -43,18 +43,13 @@ int** dwuwymiar(int n, int m){
 
 void odwrot(int **tab, int n, int m){
     int tym[m];
-    int tym2[m];
-    for(int j=0;j<m;j++){
-        *(tym+j)=*(*(tab)+j);
-    }
-    for(int i=1;i<n;i++){
-        for(int j=0;j<m;j++){
-            *(tym2+j)=*(*(tab+i)+j);
-            *(*(tab+i)+j)=*(tym+j);
-            *(tym+j)=*(tym2+j);
+    for(int i=0;i<n;i++){
+        for(int j=1;j<m;j++){
+            *(tym+j)=*(*(tab+i)+j-1);
         }
-    }
-    for(int j=0;j<m;j++){
-        *(*(tab)+j)=*(tym+j);
+        *tym=*(*(tab+i)+m-1);
+        for(int j=0;j<m;j++){
+            *(*(tab+i)+j)=*(tym+j);
+        }
     }
 }

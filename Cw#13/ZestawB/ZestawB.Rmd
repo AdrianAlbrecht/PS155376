@@ -1,0 +1,46 @@
+---
+title: "Zestaw B - próbny"
+lang: pl
+output:
+  word_document: default
+  pdf_document: default
+---
+
+
+1. W folderze DebugB znajduje się projekt z kodem w języku C. W pliku main.c w niektórych linijkach są komentarze. Twoim zadaniem jest wpisanie wartości odpowiednich zmiennych po wykonaniu konkretnej linii kodu. Dopisanie nowych linijek i instrukcji poza komentarzami będzie powodowało 0 pkt. Adresy muszą obowiązkowo być w systemie szesnastkowym.
+
+*Punktacja: 7 pkt.*
+
+2. Napisz funkcję, która otrzymuje dwa napisy i dopisuje pierwszy na koniec drugiego w od-wrotnej kolejności (zaczynając od ostatniego znaku drugiego napisu). Zakładamy, że wynikowy napis zmieści się w pamięć zarezerwowanej dla tablicy przechowującej odpowiednie napisy. Stwórz jeden przypadek testowy dla funkcji.
+
+*Punktacja: 9 pkt.*
+
+3. Napisz funkcję, która porównuje dwie listy z głową o elementach typu:
+
+```c
+struct element {
+    double x;
+    struct element * next;
+};
+```
+
+i zwraca 1 jeżeli suma elementów na obu listach jest równa oraz 0 w przeciwnym razie. Stwórz jeden przypadek testowy.
+
+
+*Punktacja: 12 pkt.*
+
+4. Dane są następujące wyrazy i znaki:
+
+```
+** char void int int  int tab  n  m fun ( ) , , , sciezka *
+```
+
+Ułóż je we właściwej kolejności, aby otrzymać nagłówek funkcji fun, która dostaje jako argumenty napis, dwuwymiarową tablicę tablic o elementach typu int oraz wymiary tablicy.
+ Następnie dodaj dowolną implementację funkcji i stwórz dla niej przypadek testowy. 
+
+
+*Punktacja: 10 pkt.*
+
+5. Napisz funkcję, która przyjmie jako argumenty trzy dwuwymiarowe tablice tablic liczb zmiennoprzecinkowych rozmiaru 2x2. Funkcja powinna pomnożyć dwie pierwsze macierze a wynik umieścić w trzeciej. Stwórz przypadek testowy dla funkcji.
+
+*Punktacja: 12 pkt.*

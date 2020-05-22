@@ -1,4 +1,4 @@
-Stan na dzień: 12.05.2020 22:03
+Stan na dzień: 22.05.2020 22:09
 
 | Lista 1 | Lista 2 | Lista 3 | Lista 4 | Lista 5 |
 |---|---|---|---|---|
@@ -8,6 +8,8 @@ Stan na dzień: 12.05.2020 22:03
 |---|---|---|---|---|
 | 2 pkt | 2pkt | 50 pt | 2 pkt | 1 pkt |
 
-| Lista 11| 
-|---|
-| 1,5 pkt |
+| Lista 11| Lista 12| Liast 13|
+|---|---|
+| 1,5 pkt | 2 pkt| 1,5 pkt|
+
+Suma: 72 pkt.

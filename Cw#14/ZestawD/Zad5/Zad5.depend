@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1590571247 source:c:\users\adrian\desktop\c_v_python\c\ps155376\cw#14\zestawd\zad5\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

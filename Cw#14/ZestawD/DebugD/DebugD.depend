@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1590563850 source:c:\users\piotrek\documents\cbprojekty\debugd\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1590563850 source:c:\users\adrian\desktop\c_v_python\c\ps155376\cw#14\zestawd\debugd\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,48 @@
+---
+title: "Zestaw D - próbny"
+lang: pl
+output:
+  word_document: default
+  pdf_document: default
+---
+
+
+1. W folderze DebugD znajduje się projekt z kodem w języku C. W pliku main.c w niektórych linijkach są komentarze. Twoim zadaniem jest wpisanie wartości odpowiednich zmiennych po wykonaniu konkretnej linii kodu. Dopisanie nowych linijek i instrukcji poza komentarzami będzie powodowało 0 pkt. Adresy muszą obowiązkowo być w systemie szesnastkowym.
+
+*Punktacja: 7 pkt.*
+
+2. Zdefiniuj funkcję, która zlicza liczbę samogłosek w przekazanym jako argument napisie. Stwórz przypadek testowy dla funkcji.
+
+
+*Punktacja: 9 pkt.*
+
+3. Napisz funkcję, która porównuje dwie listy bez głowy o elementach typu:
+
+```c
+struct element {
+    char z;
+    struct element * next;
+};
+```
+
+i zwraca 1 jeżeli napisy powstałe z kolejnych znaków przechowywanych na obu listach są równe oraz 0 w przeciwnym razie. Stwórz jeden przypadek testowy.
+
+
+*Punktacja: 12 pkt.*
+
+4. Zdefiniuj strukturę `Wycieczka` z polami `kraj` (napis) i `cena` (dowolny typ liczbowy). Następnie stwórz funkcję, której argumentami będzie tablica struktur `Wycieczka` i rozmiar tablicy. Funkcja ma zwracać nazwę kraju, gdzie wycieczka jest najtańsza (możesz uprosić zadanie, że w tablicy wszystkie ceny są różne). Stwórz przypadek testowy. 
+
+
+*Punktacja: 15 pkt.*
+
+5. Napisz funkcję, która przyjmie jako argumenty dwuwymiarową tablicę elementów liczb stałoprzecinkowych oraz jej wymiary m i n. Funkcja zwrócić iloczyn elementów stojących na miejscach o parzystych indeksach (zarówno dla wierszy i kolumn). Stwórz przypadek testowy dla funkcji. 
+
+Wskazówka: Dla poniższej tablicy funkcja powinna zwrócić $-18 = 2\cdot 1\cdot 9 \cdot (-1)$. 
+
+|         |         |          |         |
+|---------|---------|----------|---------|
+|    2    |    2    |    1     |    2    |
+|    7    |    7    |    4     |    4    |
+|    9    |    9    |    -1    |    1    |
+
+*Punktacja: 7 pkt.*
